@@ -1,0 +1,13 @@
+interface:
+  display_name: AI 编剧协作
+  short_description: 自动推进剧本，在关键审美与决策处由你拍板
+  default_prompt: 使用 $ai-screenwriter-collab，把我的想法发展成短片剧本；在关键创作决策处向我提问。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
